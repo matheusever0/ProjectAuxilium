@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_fundotelacadastro"
+    android:orientation="vertical"
+    tools:context=".MenuPrincipalActivity">
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AULAS SOLICITADAS"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lstAulas"
+            android:layout_width="wrap_content"
+            android:layout_height="378dp"
+            android:layout_below="@+id/txtNome"></ListView>
+
+        <Button
+            android:id="@+id/btnSolicitarAula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lstAulas"
+            android:background="@android:color/holo_green_light"
+            android:text="SOLICITAR AULA" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSolicitarAula"
+            android:background="@android:color/holo_red_light"
+            android:text="SAIR" />
+
+
+</LinearLayout>

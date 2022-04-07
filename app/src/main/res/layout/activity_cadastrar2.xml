@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_fundotelacadastro"
+    android:orientation="vertical"
+    tools:context=".Cadastrar2Activity">
+
+    <RelativeLayout
+        android:layout_width="342dp"
+        android:layout_height="500dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <EditText
+            android:id="@+id/edtInstituicaoEnsino"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Instituição Ensino" />
+
+        <EditText
+            android:id="@+id/edtEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_below="@+id/edtInstituicaoEnsino"
+            android:layout_marginTop="10dp"
+            android:hint="Endereço" />
+
+
+        <EditText
+            android:id="@+id/edtNumero"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_below="@+id/edtEndereco"
+            android:layout_marginTop="10dp"
+            android:hint="Numero" />
+
+        <EditText
+            android:id="@+id/edtBairro"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_below="@+id/edtNumero"
+            android:layout_marginTop="10dp"
+            android:hint="Bairro" />
+
+
+        <EditText
+            android:id="@+id/edtCidade"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_below="@+id/edtBairro"
+            android:layout_marginTop="10dp"
+            android:hint="Cidade" />
+
+        <EditText
+            android:id="@+id/edtCep"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_below="@+id/edtCidade"
+            android:layout_marginTop="10dp"
+            android:hint="Cep" />
+
+        <EditText
+            android:id="@+id/edtEstado"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_below="@+id/edtCep"
+            android:layout_marginTop="10dp"
+            android:hint="Estado" />
+
+        <EditText
+            android:id="@+id/edtSiglaEstado"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_below="@+id/edtEstado"
+            android:layout_marginTop="10dp"
+            android:hint="Sigla Estado" />
+
+
+        <Button
+            android:id="@+id/btnConcluir"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/edtSiglaEstado"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_green_light"
+            android:text="@string/btn_salvar" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

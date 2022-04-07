@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLinhaId"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20dp"
+        android:text="2" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLinhaDisciplina"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20dp"
+        android:text="Desenvolvimento Java"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLinhaAssunto"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="POO 2"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLinhaDataSolicitacao"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="23/02/2019"/>
+
+    <TextView
+        android:id="@+id/txtLinhaHorario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="13:00h" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLinhaDescricao"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Muitas duvidas no desenvolvimento de web site responsivos com JDBC"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLinhaLocal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Rua Octavio Barreto"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+
+
+
+
+
+</LinearLayout>

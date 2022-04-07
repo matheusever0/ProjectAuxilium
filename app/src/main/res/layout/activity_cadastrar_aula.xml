@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_fundotelacadastro"
+    android:orientation="vertical"
+    tools:context=".CadastrarAulaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp">
+
+        <Button
+            android:id="@+id/consultar_btn_voltar"
+            style="?android:attr/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/holo_red_dark"
+            android:text="Voltar"
+            android:textColor="@android:color/holo_orange_light" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/edtDisciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Disciplina" />
+
+    <EditText
+        android:id="@+id/edtAssunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Assunto" />
+
+    <EditText
+        android:id="@+id/edtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descricao" />
+
+    <EditText
+        android:id="@+id/edtLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Local" />
+
+
+    <Button
+        android:id="@+id/btnCadastrarAula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="Confirmar"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnCancelarAula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="Cancelar" />
+
+
+</LinearLayout>
